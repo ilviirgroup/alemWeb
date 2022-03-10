@@ -40697,7 +40697,7 @@ r8(a,b,c){return this.af3(0,b,c)},
 af3(a,b,c){var s=0,r=A.L(t.y),q,p=2,o,n=[],m,l,k,j
 var $async$r8=A.M(function(d,e){if(d===1){o=e
 s=p}while(true)switch(s){case 0:p=4
-m=A.rE(B.eZ,"http://96.30.193.58/alem"+c+b,B.y,!1)
+m=A.rE(B.eZ,"https://127.0.0.1/alem"+c+b,B.y,!1)
 s=7
 return A.Q(A.aCZ(A.m0(m)),$async$r8)
 case 7:l=e
@@ -40728,7 +40728,7 @@ var $async$fJ=A.M(function(b,c){if(b===1){o=c
 s=p}while(true)switch(s){case 0:p=4
 k=t.N
 s=7
-return A.Q(A.aQB(A.m0("http://96.30.193.58/alem"+a),A.aB(["Content-Type","application/json; charset=utf-8"],k,k)),$async$fJ)
+return A.Q(A.aQB(A.m0("https://127.0.0.1/alem"+a),A.aB(["Content-Type","application/json; charset=utf-8"],k,k)),$async$fJ)
 case 7:m=c
 k=B.al.wF(0,B.y.dO(0,m.x),null)
 q=k
@@ -40756,7 +40756,7 @@ m6(a,b,c){return this.acJ(0,b,c)},
 acJ(a,b,c){var s=0,r=A.L(t.a),q,p=2,o,n=[],m,l,k,j,i,h
 var $async$m6=A.M(function(d,e){if(d===1){o=e
 s=p}while(true)switch(s){case 0:p=4
-k=A.m0("http://96.30.193.58/alem"+b)
+k=A.m0("https://127.0.0.1/alem"+b)
 j=t.N
 j=A.aB(["Content-Type","application/json","Connection","keep-alive"],j,j)
 s=7
@@ -40789,7 +40789,7 @@ var $async$xU=A.M(function(d,e){if(d===1){o=e
 s=p}while(true)switch(s){case 0:p=4
 m=A.aJJ(c)
 j=$.aEV()
-i="http://96.30.193.58/alem"+a+b
+i="https://127.0.0.1/alem"+a+b
 h=A.aKF()
 h.a="PATCH"
 s=7
